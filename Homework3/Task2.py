@@ -11,7 +11,7 @@ for i in range(lenght):
 
 number = int(input("Enter number: "))
 min = abs(number - list[0])
-
+index = 0
 for i in range(1, len(list)):
     module = abs(number - list[i])
     if module < min:

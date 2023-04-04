@@ -10,3 +10,13 @@
 # print(f"Days, when plus temp {maxCount} and days, when minus temp {minCount}")
 
 
+list1 = [1, 4, 1, 2, 4, 7]
+num = 6
+a = [num - i for i in list1]
+print(a)
+module = [abs(i) for i in a]
+print(module)
+m = min(module)
+print(m)
+print(num - m)
+# print(num - abs(min(abs(i) for i in [num - i for i in list1])))
