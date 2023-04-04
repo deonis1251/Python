@@ -12,9 +12,9 @@
 
 list1 = [1, 4, 1, 2, 4, 7]
 num = 6
-a = [num - i for i in list1]
-print(a)
-module = [abs(i) for i in a]
+raznitsa = [num - i for i in list1]
+print(raznitsa)
+module = [abs(i) for i in raznitsa]
 print(module)
 m = min(module)
 print(m)
