@@ -24,3 +24,4 @@
 
 # word = 'asd,asdasd, asd  asd, asd, ,aswrfv'
 # a = word.split(' ')
+
