@@ -5,7 +5,7 @@
 #     temp = int(input("Enter temperature: "))
 #     if temp >= 0:
 #         maxCount += 1
-#     else: 
+#     else:
 #         minCount += 1
 # print(f"Days, when plus temp {maxCount} and days, when minus temp {minCount}")
 
@@ -25,3 +25,6 @@
 # word = 'asd,asdasd, asd  asd, asd, ,aswrfv'
 # a = word.split(' ')
 
+a = [1, 5, 4, 7, 5, 7]
+
+a 
