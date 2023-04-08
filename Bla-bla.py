@@ -25,6 +25,10 @@
 # word = 'asd,asdasd, asd  asd, asd, ,aswrfv'
 # a = word.split(' ')
 
-a = [1, 5, 4, 7, 5, 7]
+# def sum_str(*args):
+#     res = int()
+#     for i in args:
+#         res += i
+#     return res
 
-a 
+# print(sum_str(1, 2, 3))

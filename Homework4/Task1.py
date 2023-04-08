@@ -18,4 +18,4 @@ for el in range(long_2):
     num_2 = int(input(f'Введите {el + 1} элемент второго множества: '))
     lot_2.append(num_2)
 
-print(set(lot_1).intersection(lot_2))
+print(set(lot_1).intersection(set(lot_2)))
