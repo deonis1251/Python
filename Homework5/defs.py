@@ -44,11 +44,9 @@ def sum_nums(a, b):
         return a
     return a * sum_nums(a, b - 1)
 
-# Сумма двух неотрицательных цисел 
+# Сумма двух неотрицательных цисел
 def rec_sum(a, b):
     if a == 0:
         return b
     else:
         return rec_sum(a - 1, b + 1)
-    
-# 
