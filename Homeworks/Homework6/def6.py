@@ -18,6 +18,6 @@ def min_max_in_nums(nums):
     maxi = int(input("Введите максимальное значение: "))
     result = []
     for el in range(len(nums)):
-        if mini < nums[el] < maxi:
+        if mini <= nums[el] <= maxi:
             result.append(el)
     return result
