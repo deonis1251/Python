@@ -19,3 +19,5 @@ for el in range(long_2):
     lot_2.append(num_2)
 
 print(set(lot_1).intersection(set(lot_2)))
+
+import defs

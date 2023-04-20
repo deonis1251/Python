@@ -3,7 +3,7 @@
 
 import defs
 
-num_1 = int(input("Введите число "))
+num_1 = int(input("Введите число: "))
 num_2 = int(input("Введите степень числа(целое неотрицательно число) "))
 
-print(defs.sum_nums(num_1, num_2))
+print(defs.umnojenie_nums(num_1, num_2))

@@ -39,14 +39,24 @@ def rever(lenght):
     return nums
 
 # Сумма двух чисел 
-def sum_nums(a, b):
-    if b == 0:
+def umnojenie_nums(a, b):
+    if b == 1:
         return a
-    return a * sum_nums(a, b - 1)
+    return a * umnojenie_nums(a, b - 1)
 
-# Сумма двух неотрицательных цисел
+# Сумма двух неотрицательных цисел 
 def rec_sum(a, b):
     if a == 0:
         return b
     else:
         return rec_sum(a - 1, b + 1)
+    
+# Количество чисел, которые больше соседних в массиве
+def near_min(nums):
+    count = 0
+    for el in range(len(nums) - 1):
+        if nums[el - 1] < nums[el] > nums[el + 1]:
+            count += 1
+    return count
+
+# 
