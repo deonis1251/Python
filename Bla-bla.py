@@ -32,3 +32,11 @@
 #     return res
 
 # print(sum_str(1, 2, 3))
+
+
+# print(list(map(int, [x for x in input("Введите числа через пробел: ").split()])))
+
+# data = [1, 5465, 56, 4, 65, 48, 651, 5, 561, 51, 65, 134, 561, 65]
+
+# print(list(filter(lambda x: x % 2 == 0, data)))
+
