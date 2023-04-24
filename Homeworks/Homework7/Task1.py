@@ -7,7 +7,7 @@ else:
     count_let = []
     for i in phrases:
         count_let.append(len([x for x in i if x.lower() in leters]))
-if set(count_let) == 1:
+if len(set(count_let)) == 1:
     print("Парам пам-пам!")
 else:
     print("Пам парам!")
