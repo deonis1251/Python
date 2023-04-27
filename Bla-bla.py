@@ -40,3 +40,9 @@
 
 # print(list(filter(lambda x: x % 2 == 0, data)))
 
+# a = open("t.txt", 'a')
+# a.writelines("Привет")
+# a.close
+
+# with open("t.txt", 'r') as a:
+#     print(a.readline())
