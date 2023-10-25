@@ -46,3 +46,9 @@
 
 # with open("t.txt", 'r') as a:
 #     print(a.readline())
+
+# print(round(0.51))
+# a = 10 + 7j
+# b = 3 + 3j
+# print(a*b)
+# # (10+7j) * (3+3j) =30+30j+21j+21j^2 = 
